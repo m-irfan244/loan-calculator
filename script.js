@@ -26,10 +26,10 @@ function updateRate()
 
 function validateAmount() {
     var principal = document.querySelector("#principal").value;
-    var moreThenZero = parseInt(principal);
-    if (principal === "" || moreThenZero < 0) {
-        alert("Enter a positive number please");
-        document.querySelector("#principal").focus();
-    }
+    var principalNum = parseInt(principal);
+    if(principal === "" || principalNum < 0) {
+        alert("Enter a positive Number Please!")
+        
+    } 
+}
 
-  }
