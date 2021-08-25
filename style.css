@@ -18,9 +18,10 @@ h1{
     margin: auto;
 }
 
+
 .result {
-    height: 150px;
-    width: auto;
+    background-color: #fff;
+    text-decoration: yellow;
 }
 
 

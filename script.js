@@ -29,6 +29,7 @@ function validateAmount() {
     var principalNum = parseInt(principal);
     if(principal === "" || principalNum < 0) {
         alert("Enter a positive Number Please!")
+        principal.focus()
     } else {
         compute()
     }
